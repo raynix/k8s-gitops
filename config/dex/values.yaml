@@ -4,6 +4,7 @@ config:
   connectors:
     # GitHub configure 'OAuth Apps' -> 'New OAuth App', add callback URL
     # https://github.com/settings/developers
+    # https://dexidp.io/docs/connectors/github/
     - type: github
       id: github
       name: GitHub
@@ -16,6 +17,7 @@ config:
         # https://github.com/coreos/dex/blob/master/Documentation/connectors/github.md
         orgs:
           - name: raspbernetes
+    # https://dexidp.io/docs/connectors/google/
     - type: google
       id: google
       name: Google
